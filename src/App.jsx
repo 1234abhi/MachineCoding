@@ -13,6 +13,7 @@ import TicTacToe from "./components/TicTacToe";
 import MCQApp from "./components/Mcq";
 import TableRender from "./components/TableRender";
 import NestedCheckbox from "./components/NestedCheckbox";
+import FileExplorer from "./components/FileExplorer";
 
 // Default list passed as prop
 const defaultFruits = [
@@ -41,7 +42,8 @@ function App() {
       {/* <TicTacToe /> */}
       {/* <MCQApp /> */}
       {/* <TableRender /> */}
-      <NestedCheckbox />
+      {/* <NestedCheckbox /> */}
+      <FileExplorer />
     </>
   );
 }
