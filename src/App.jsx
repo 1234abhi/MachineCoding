@@ -14,6 +14,7 @@ import MCQApp from "./components/Mcq";
 import TableRender from "./components/TableRender";
 import NestedCheckbox from "./components/NestedCheckbox";
 import FileExplorer from "./components/FileExplorer";
+import ProgressBar from "./components/ProgressBar";
 
 // Default list passed as prop
 const defaultFruits = [
@@ -43,7 +44,8 @@ function App() {
       {/* <MCQApp /> */}
       {/* <TableRender /> */}
       {/* <NestedCheckbox /> */}
-      <FileExplorer />
+      {/* <FileExplorer /> */}
+      <ProgressBar />
     </>
   );
 }
